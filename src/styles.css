@@ -17,6 +17,10 @@ a {
   color: rgb(45,45,45);
 }
 
+div {
+  display: block;
+}
+
 ul, li {
   list-style-type: none;
 }
@@ -215,7 +219,7 @@ ul, li {
   }
 
   .head_push {
-    padding-top: 80px;
+    padding-top: 50px;
   }
 
   .tab_menubar_navigator {
