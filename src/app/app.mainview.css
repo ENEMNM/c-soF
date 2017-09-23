@@ -89,6 +89,7 @@
 
 .main_state_wrapper {
   padding: 30px 0 30px;
+  margin: 0 auto;
   height: 148px;
   max-width: 1140px;
 }
@@ -115,7 +116,11 @@
 }
 
 .wpb_text_column {
-    text-align: center;
+  text-align: center;
+}
+
+.wpb_wrapper {
+  position: relative;
 }
 
 .stateTitle {
@@ -128,6 +133,31 @@
 
 .stateInfo {
   color: #fff; font-size: 23px; font-weight: 600;
+}
+
+.tooltip {
+    position: absolute;
+    top: 23px;
+    width: 190px;
+    padding: 3px 8px;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    background-color: #D4FB7B;
+    border-radius: 4px;
+    font-size: 12px;
+    left: 50%;
+    margin-left: -95px;
+    z-index: 111;
+
+    text-shadow: none;
+    text-transform: none;
+    letter-spacing: normal;
+    word-break: normal;
+    word-spacing: normal;
+    word-wrap: normal;
+    white-space: normal;
+    line-break: auto;
 }
 
 

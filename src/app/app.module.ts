@@ -31,7 +31,7 @@ const routes:Routes = ([
   ],
   providers: [],
   bootstrap: [
-    MainView
+    MainView,
   ]
 })
 export class AppModule { }

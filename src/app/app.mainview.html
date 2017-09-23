@@ -72,9 +72,9 @@
               <div class="wpb_text_column">
                 <div class="wpb_wrapper">
                   <p class="stateTitle">
-                    연체율 <img src="/wp-content/themes/Impreza-child/assets/image/question_icon.png" border="0" style="vertical-align:top;cursor:pointer;" onclick="tooltipToggle(1);">
+                    연체율 <img src="https://c-so.co.kr/wp-content/themes/Impreza-child/assets/image/question_icon.png" border="0" style="vertical-align:top;cursor:pointer;" (click)="tooltipToggle(1)">
                   </p>
-                  <div class="tooltip" style="display: {{ tooltip1 }};">연체(상환일로부터 30일 이상~90일 미만 동안 상환이 지연) 중인 원금 / 대출잔액</div>
+                  <div class="tooltip" [style.display]="tooltip1 ? 'block' : 'none'">연체(상환일로부터 30일 이상~90일 미만 동안 상환이 지연) 중인 원금 / 대출잔액</div>
                   <div class="stateInfo">0%</div>
                 </div>
               </div>
@@ -83,9 +83,9 @@
               <div class="wpb_text_column">
                 <div class="wpb_wrapper">
                   <p class="stateTitle">
-                    부실률 <img src="/wp-content/themes/Impreza-child/assets/image/question_icon.png" border="0" style="vertical-align:top;cursor:pointer;" onclick="tooltipToggle(2);">
+                    부실률 <img src="https://c-so.co.kr/wp-content/themes/Impreza-child/assets/image/question_icon.png" border="0" style="vertical-align:top;cursor:pointer;" (click)="tooltipToggle(2)">
                   </p>
-                  <div class="tooltip" id="tooltip2">부실(상환일로부터 90일 이상 동안 상환이 지연) 중인 원금 / 누적대출액</div>
+                  <div class="tooltip" [style.display]="tooltip2 ? 'block' : 'none'">부실(상환일로부터 90일 이상 동안 상환이 지연) 중인 원금 / 누적대출액</div>
                   <div class="stateInfo">0%</div>
                 </div>
               </div>
