@@ -8,6 +8,7 @@ export class MainView {
   date: Date;
   tooltip1: number = 0;
   tooltip2: number = 0;
+  item: number[] = [0,];
 
   constructor() {
     this.date = new Date();
